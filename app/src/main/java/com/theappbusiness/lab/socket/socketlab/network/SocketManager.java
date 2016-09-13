@@ -5,4 +5,8 @@ package com.theappbusiness.lab.socket.socketlab.network;
  */
 
 public interface SocketManager {
+
+    void start(SocketListener listener);
+    void send(SocketMessage socketMessage);
+    void stop();
 }
